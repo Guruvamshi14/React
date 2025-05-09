@@ -1,0 +1,17 @@
+ .light {
+    /* Light mode colors */
+    --bg-color: #567561;
+    --text-color: #000000;
+    --button-bg: #e0e0e0;
+    --button-text: #000000;
+    --accent-color: #0066cc;
+  }
+  
+  .dark {
+    /* Dark mode overrides */
+    --bg-color: #121212;
+    --text-color: #e0e0e0;
+    --button-bg: #333333;
+    --button-text: #ffffff;
+    --accent-color: #3399ff;
+  }

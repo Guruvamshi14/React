@@ -1,0 +1,25 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.header {
+    display: flex;
+    padding: 25px;
+    width: 100%;
+    /* border: 2px solid black; */
+    justify-content: space-between;
+    margin: 0 auto;
+    background-color: cadetblue;
+    overflow-x: hidden;
+} 
+
+.heading {
+    font-size: x-large;
+    color: aliceblue;
+}
+
+.mode {
+    font-size: larger;
+}

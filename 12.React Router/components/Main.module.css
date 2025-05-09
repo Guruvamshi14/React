@@ -1,0 +1,40 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.upperPart {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* margin-top: 40px; */
+}
+
+.upperPart input {
+    height: 35px;
+    border-radius: 5px;
+    padding-left: 33px;
+    position: absolute;
+    width: 30%;
+}
+
+.upperPart i {
+    font-size: 23px;
+    position: absolute;
+    z-index: 1;
+    padding-top: 6px;
+    padding-left: 6px;
+
+}
+
+.upperPart select {
+    height: 35px;
+    width: 20%;
+}
+
+.Main {
+    width: 100%;
+    background-color: rgb(16, 64, 65);
+    padding: 30px;
+}

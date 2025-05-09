@@ -1,0 +1,30 @@
+.countryDetails {
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 150px;
+    /* margin-left: 90px; */
+    border: 2px solid black;
+}
+
+
+img {
+    width: 50%;
+}
+
+.countryDetailsContent{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-height: 250px;
+}
+
+.details {
+    margin: 10px;
+}
+
+/* .details p{
+    margin: ;
+} */

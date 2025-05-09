@@ -1,0 +1,19 @@
+.Card {
+
+    width: 20%;
+    border: 3px solid rgb(229, 218, 218);
+    background-color: aliceblue;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 40vh;
+}
+
+img {
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+}
+
+.content {
+    margin: 10px;
+}

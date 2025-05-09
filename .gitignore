@@ -1,0 +1,49 @@
+# Ignore all node_modules folders anywhere
+**/node_modules/
+
+# Ignore all dist, build, .parcel-cache, .vite, and other common output folders
+**/dist/
+**/build/
+**/.parcel-cache/
+**/.vite/
+**/.next/
+**/.nuxt/
+**/.cache/
+**/coverage/
+**/out/
+
+# Ignore logs
+*.log
+**/*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Ignore environment file
+.env
+.env.*
+!.env.example
+
+# Ignore OS and IDE-specific files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Ignore lock files (optional: some teams commit them)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Ignore test snapshots
+**/__snapshots__/
+
+# Ignore specific files or folders
+*.local
+*.swp
+*.tmp
+
+# Ignore build artifacts of TypeScript or Babel
+**/*.tsbuildinfo
+**/*.d.ts
